@@ -17,6 +17,14 @@
         return re.test(String(email).toLowerCase());
     })
 
+    Cypress.Commands.add('findUser' ,(userName) =>{
+            cy.fixture('userDetails').then(function (userDetails){
+                //let userId = userDetails.filter(u => u.username == userName)[0].id;
+                let userId = userDetails.find(u => u.username == userName)
+                console.log(userId);
+                return userId.id;
+            })
+    })
 
 //
 //
