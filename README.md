@@ -30,3 +30,7 @@ Support Files - cypress/support/
 
 mochawesome-report/mochaawesome.html
 In addiiton to this , There is always a UI Report being displayed during the test run in non-headless mode
+
+### More information about Tests
+
+Please refer "Mobiquity Assignment Testcase Information" Document"
