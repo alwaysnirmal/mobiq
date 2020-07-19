@@ -10,7 +10,7 @@ workflows:
           debug: 'cypress:cli'
           requires:
             - cypress/install
-          start: 'lerna run start --parallel'
+          #start: 'lerna run start --parallel'
           install-command: 'npm install --no-optional --unsafe-perm'
           post-steps:
             - store_artifacts:
