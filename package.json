@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "mobiq",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@cypress/schema-tools": "^4.7.4"
+  },
   "devDependencies": {
     "@cypress/code-coverage": "^3.8.1",
     "cypress": "^4.10.0",
