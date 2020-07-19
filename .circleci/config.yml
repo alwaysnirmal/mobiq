@@ -6,10 +6,10 @@ workflows:
     jobs:
       - cypress/install
       - cypress/run:
-          name: Debug with Cypress CLI logs
+          name: 'API Tests'
           debug: 'cypress:cli'
-          #requires:
-         #   - cypress/install
+          requires:
+            - cypress/install
           start: 'lerna run start --parallel'
           install-command: 'npm install --no-optional --unsafe-perm'
           post-steps:
