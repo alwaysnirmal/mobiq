@@ -18,11 +18,12 @@ npm install
 ```
 or
 ```bash
-npx cupress run
+npx cypress run
 ```
 ## Where to find test 
 
 Spec Files - cypress/integration/
+
 Support Files - cypress/support/
 
 ## Reprot
